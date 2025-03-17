@@ -2,7 +2,6 @@ package com.biznex.model.media.photo;
 
 import com.biznex.common.TechnicalFields;
 import com.biznex.common.constant.Name;
-import com.biznex.common.constant.Status;
 import com.biznex.model.file.File;
 import com.biznex.model.mediacategory.MediaCategory;
 import jakarta.persistence.*;

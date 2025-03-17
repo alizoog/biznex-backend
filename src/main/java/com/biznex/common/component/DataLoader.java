@@ -49,7 +49,7 @@ public class DataLoader implements CommandLineRunner {
                         "Ibrokhim",
                         "Khamidov",
                         "alizoog",
-                        passwordEncoder.encode("Ali@15112004"),
+                        passwordEncoder.encode("ali786"),
                         admin,
                         Status.ACTIVE
                 ));

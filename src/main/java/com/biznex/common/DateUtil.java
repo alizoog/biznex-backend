@@ -24,7 +24,7 @@ public class DateUtil {
         try {
             return LocalDateTime.parse(dateAsString, dateFormat);
         } catch (Exception ignored) {
-            log.info("Could not parse {}", dateAsString);
+            log.info("Could not parse to LocaleDate Time {}", dateAsString);
             return null;
         }
     }
@@ -33,7 +33,7 @@ public class DateUtil {
         try {
             return LocalDate.parse(dateAsString, dateFormat);
         } catch (Exception ignored) {
-            log.info("Could not parse {}", dateAsString);
+            log.info("Could not parse to LocaleDate {}", dateAsString);
             return null;
         }
     }
@@ -43,7 +43,7 @@ public class DateUtil {
         try {
             return formatter.parse(val);
         } catch (Exception exception) {
-            log.info("Could not parse {}", val);
+            log.info("Could not parse to Date{}", val);
             return null;
         }
     }
